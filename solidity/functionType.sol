@@ -15,11 +15,13 @@ contract FunctionTypes{
     function addView() external view returns(uint256 new_number){
         new_number = number+1;
     }
+    
 
 
      function minus() internal {
         number=number-1;
      }
+
 
     function minusCall() external {
       minus();
