@@ -4,7 +4,84 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "readReturn",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnMultiple",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256[3]",
+						"name": "",
+						"type": "uint256[3]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnNamed",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_bool",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256[3]",
+						"name": "_array",
+						"type": "uint256[3]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnNamed2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_bool",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256[3]",
+						"name": "_array",
+						"type": "uint256[3]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +110,11 @@
 	},
 	"sources": {
 		"Return.sol": {
-			"keccak256": "0x038532083e936b1a3f1f1a7d8cda611ef219c3f1befa33e86f6b0e63e3de1ede",
+			"keccak256": "0xb146c66a4c1fa5f6c5d196326b88b1c6c618ad2db414f7bbab0c55969b097d2f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5d7caaa65e4ff78e539062236865825c43b477eaef7e8b9e750bf4663ee7419b",
-				"dweb:/ipfs/QmX4YXJcZzgFHM5ri1obZYxfxxEZqovdsTGy7oQk94dcLd"
+				"bzz-raw://6ce587782cedc6c15ca470afc99aa44703884b01fc250e8a09cb04596d249027",
+				"dweb:/ipfs/QmPnrXDDX4P9M7j7d93ZE4VuBPZRcWHWLZnXDHK7D2Bd5c"
 			]
 		}
 	},
