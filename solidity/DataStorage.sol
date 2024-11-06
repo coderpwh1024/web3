@@ -15,8 +15,7 @@ contract  DataStrorage{
 
   
   function fMemory() public view{
-
-    uint[]memory  xMemory = x;
+     uint[]memory  xMemory = x;
      xMemory[0]=100;
      xMemory[1]=200;
 
@@ -25,11 +24,9 @@ contract  DataStrorage{
   }
 
 
-
-
-function fCalldata(uint[] calldata _x) public pure returns(uint[] calldata){
-     return (_x);
-}
+  function fCalldata(uint[] calldata _x) public pure returns(uint[] calldata){
+    return (_x);
+  }
 
 }
 
